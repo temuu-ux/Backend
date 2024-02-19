@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "ipone15",
+      "price": 190000
+    },
+    {
+      "name": "macbook",
+      "price": 1800000
+    }
+  ],
+  "users": [
+    {
+      "name": "hosoo",
+      "price": 19
+    },
+    {
+      "name": "dogoo",
+      "price": 18
+    }
+  ]
+}

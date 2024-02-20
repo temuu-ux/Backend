@@ -12,7 +12,7 @@ const { products, users } = require("./dummy.json");
 const app = express();
 
 app.get("/products", (req, res) => {
-  res.type = "application/json";
+  // res.type = "application/json";
   res.send({ products });
 });
 app.get("/users", (req, res) => {
@@ -22,7 +22,7 @@ app.get("/users", (req, res) => {
 
 app.get("/usernames", (req, res) => {
   res.type = "application/json";
-  res.send.filter({ usernames });
+  res.send({ usernames });
 });
 
 const usernames = users.map((e) => {
